@@ -41,6 +41,7 @@ namespace printingtest
             foreach (string printname in PrinterSettings.InstalledPrinters)
             {
                 listView1.Items.Add(printname);
+                MessageBox.Show("Hi...");
                
             }
 
